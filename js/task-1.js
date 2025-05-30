@@ -1,6 +1,6 @@
-"use strict";
+'use strict';
 function makeTransaction(quantity, pricePerDroid) {
-  return `You odrdered ${quantity} droids worth ${
+  return `You ordered ${quantity} droids worth ${
     pricePerDroid * quantity
   } credits!`;
 }
